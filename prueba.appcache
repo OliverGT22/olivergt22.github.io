@@ -1,6 +1,6 @@
 CACHE MANIFEST
-# 01/10/2022 v5
+# 01/10/2022 v6
 CACHE:
 index.html
-/hola.js
-/efectos.css
+hola.js
+efectos.css
