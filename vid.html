@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Videollamadas Grupales</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Videollamadas Grupales</h1>
+    <div id="video-container"></div>
+    <div id="controls">
+      <button id="join-button" class="btn btn-primary">Unirse a la llamada</button>
+      <button id="leave-button" class="btn btn-danger" disabled>Salir de la llamada</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://media.twiliocdn.com/sdk/js/video/releases/2.13.0/twilio-video.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
